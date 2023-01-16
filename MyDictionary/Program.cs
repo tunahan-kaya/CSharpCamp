@@ -10,7 +10,7 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            
+           
         }
     }
 
@@ -27,9 +27,10 @@ namespace MyDictionary
             T[] _tempItems = new T[_items.Length + 1];
             for (int i = 0; i < _tempItems.Length; i++)
             {
-                _items[i] = _tempItems[i];
+                _tempItems[i]=_items[i];
             }
-           _items[_items.Length-1] = item;
+            _tempItems[_items.Length] = item;
+            _items = _tempItems;
         }
     }
 }
