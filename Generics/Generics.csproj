@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98287AAD-71AA-4BF2-B7E5-2F4566852CD5}</ProjectGuid>
+    <ProjectGuid>{AB68BE1F-2D94-41FB-8F39-59CE878189C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExcelFinal40P</RootNamespace>
-    <AssemblyName>ExcelFinal40P</AssemblyName>
+    <RootNamespace>Generics</RootNamespace>
+    <AssemblyName>Generics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
