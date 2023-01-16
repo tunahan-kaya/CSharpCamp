@@ -29,7 +29,7 @@ namespace MyDictionary
             {
                 _items[i] = _tempItems[i];
             }
-           _items[_items.Length+1] = item;
+           _items[_items.Length-1] = item;
         }
     }
 }
