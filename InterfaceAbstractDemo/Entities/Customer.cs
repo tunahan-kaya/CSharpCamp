@@ -1,17 +1,15 @@
 ﻿using InterfaceAbstractDemo.Abstract;
 using System;
 
-namespace InterfaceAbstractDemo.Entites
+namespace InterfaceAbstractDemo.Entities
 {
-    internal partial class Program
+   public class Customer:IEntity
     {
-        class Customer:IEntity
-        {
-            public int ID { get; set; }
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-            public DateTime DateOfBirth { get; set; }
-            public string NationalityID { get; set; }
-        }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string NatioanalityId { get; set; }
+
     }
 }

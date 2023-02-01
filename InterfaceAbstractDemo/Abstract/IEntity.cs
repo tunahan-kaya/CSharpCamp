@@ -1,6 +1,6 @@
 ﻿namespace InterfaceAbstractDemo.Abstract
 {
-    interface IEntity
+  public  interface IEntity
     {
 
     }

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceAbstractDemo.Concrete
+namespace OOP3
 {
-    internal class NeroCustoemerManager
+    internal interface ILoggerService
     {
+        void Log();
+
     }
 }

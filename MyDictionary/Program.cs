@@ -13,24 +13,4 @@ namespace MyDictionary
            
         }
     }
-
-
-    class MyDictionary<T>
-    {
-        T[] _items;
-        public MyDictionary()
-        {
-            _items= new T[0];
-        }
-        public void Add(T item)
-        {
-            T[] _tempItems = new T[_items.Length + 1];
-            for (int i = 0; i < _tempItems.Length; i++)
-            {
-                _tempItems[i]=_items[i];
-            }
-            _tempItems[_items.Length] = item;
-            _items = _tempItems;
-        }
-    }
 }
